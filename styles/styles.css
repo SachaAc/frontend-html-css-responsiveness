@@ -1,35 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
 
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
-    1. Global Styles
-    2. Typografie
-    3. Areas
-    4. Media Queries
-////////////////////////////////////////////////////////////////////////*/
-
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
-
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
+    background-color: #f9c48b;
+    font-size: 12px;
 }
 
-/*////////////////////////
-    2. Typography
-////////////////////////*/
+img {
+    width: 100%;
+}
 
+span {
+    flex-basis: auto;
+}
 
+@media screen and (min-width: 768px) {
+    html {
+    font-size: 1.2rem;}
+    body {
+    background-color: #f69051;}
+}
 
-/*////////////////////////
-    3. Areas
-////////////////////////*/
-
-
-
-
-/*////////////////////////
-    2. Media Queries
-////////////////////////*/
+@media screen and (min-width: 992px) {
+    html {
+    font-size: 1.4rem;}
+    body {
+    background-color: red;}
+}
